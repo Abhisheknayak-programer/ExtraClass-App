@@ -1,0 +1,801 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* ##################################   NAVBAR    ##################################### */
+
+.section_1{
+    background-image: radial-gradient(at right bottom, #1c73ff 12%, #00cbff 100%);
+    height: 94vh;
+}
+
+
+.ExtraClasslogo{
+    background: #ffffff;
+    padding: 0.7rem;
+    font-weight: bold;
+    font-family: inherit;
+    border-radius: 0.3rem;
+}
+
+.loginbtn{
+    width: 6rem;
+    padding: 0.2rem;
+    border-radius: 1.5rem;
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.3rem;
+}
+
+.loginbtn a{
+    text-decoration: none;
+    font-family: inherit;
+    color: black;
+}
+
+
+
+
+
+
+.cont1st{
+    height: 40rem; 
+    width: 50%;
+}
+
+
+
+.Heading1{
+    color: white;
+    font-size: 4.7rem;
+    font-weight: 700;
+}
+
+
+.Heading2{
+    color: white;
+    font-size: 4.7rem;
+    font-weight: 700;
+}
+
+
+.Heading3{
+    color: white;
+    font-size: 2.5rem;
+
+}
+
+.StartHead{
+    color: #007aff;
+}
+
+.Start2Head{
+    color: #007aff;
+}
+
+.StartBtn{
+    width: 10rem;
+    border-radius: 2rem;
+    padding:0.4rem 0rem;
+    outline: none;
+    background: #007aff;
+    border: none;
+}
+
+.StartBtn a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+.Section_5{
+    background-color: #0669fd;
+}
+
+.MappingHeading{
+    color: white;
+}
+
+.MappingHeading2{
+    color: white;
+}
+
+.MappingBtn{
+    width: 10rem;
+    border-radius: 2rem;
+    padding:0.4rem 0rem;
+    outline: none;
+    border: none;
+}
+
+
+.MappingBtn a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(0, 183, 255);
+    font-family: sans-serif;
+}
+
+
+.Section_6{
+    background-color: #007aff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.userImg{
+    width: 5rem;
+    height: 5rem;
+}
+
+.class_review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+}
+
+.review_color{
+    color: white;
+}
+
+
+.Section_7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 5rem;
+    width: 100%;
+}
+
+.Section_7Part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 2rem;
+    width: 100%;
+}
+
+
+
+.Section_8_img1{
+    height: 12rem;
+    width: 20rem;
+}
+
+.Section_8_img2{
+    height: 5rem ;
+    width: 18rem;
+}
+
+
+.Section_7_head{
+    color: #007aff;
+}
+
+
+
+
+
+.Section_10{
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.ListAnchor{
+    color: black;
+    font-family: sans-serif;
+}
+
+
+
+
+.ListAnchor a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+.list-group li{
+    background: #cecece60;
+}
+
+
+.Section_10_link{
+    text-decoration: none;
+    color: black;
+}
+
+.Section_10_link:hover{
+    color: blue;
+}
+
+
+
+
+
+
+.carousel_edit{
+    height: 30rem;
+    width: 50%;
+    margin: auto;
+}
+
+.carouselImgEdit{
+    height: 10rem;
+    width: 10rem;
+}
+.carousel_text{
+    color: black;
+}
+
+
+
+
+
+.Section_11{
+    height: 35vh;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.Footer_Main_box{
+    background:#0669fd ;
+    height: 25vh;
+    width: 100%;
+}
+
+
+
+
+.FooterLinkColor{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.FirstTextFooter li,.SecondTextFooter li,.ThirdTextFooter li{
+    list-style: none;
+}
+
+
+.FooterLinkColor:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *****************************************************Faq css********************************* */
+
+
+
+
+.accordion a {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+    color: #7288a2;
+    font-size: 1.15rem;
+    font-weight: 400;
+    border-bottom: 1px solid #e5e5e5;
+    text-decoration: none;
+    background: #ffffff;
+  }
+  .accordion a:hover,
+  .accordion a:hover::after {
+    cursor: pointer;
+    color: #ff5353;
+  }
+  .accordion a:hover::after {
+    border: 1px solid #ff5353;
+  }
+  .accordion a.active {
+    color: #ff5353;
+    border-bottom: 1px solid #ff5353;
+  }
+  .accordion a::after {
+    font-family: 'Ionicons';
+    content: '\f218';
+    position: absolute;
+    float: right;
+    right: 1rem;
+    font-size: 1rem;
+    color: #7288a2;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    /* border: 1px solid #7288a2; */
+    text-align: center;
+  }
+  .accordion a.active::after {
+    font-family: 'Ionicons';
+    content: '\f209';
+    color: #ff5353;
+    /* border: 1px solid #ff5353; */
+  }
+  .accordion .content {
+    opacity: 0;
+    padding: 0 1rem;
+    max-height: 0;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+    clear: both;
+    -webkit-transition: all 0.2s ease 0.15s;
+    -o-transition: all 0.2s ease 0.15s;
+    transition: all 0.2s ease 0.15s;
+  }
+  .accordion .content p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  .accordion .content.active {
+    opacity: 1;
+    padding: 1rem;
+    max-height: 100%;
+    -webkit-transition: all 0.35s ease 0.15s;
+    -o-transition: all 0.35s ease 0.15s;
+    transition: all 0.35s ease 0.15s;
+  }
+
+
+
+
+  /* *****************************************************Faq css******************************************** */
+
+
+
+
+.rounded {
+    border-radius: 2.25rem!important;
+}
+
+
+.pavandev{
+    width: 20rem;
+    height: 10rem;
+}
+
+
+
+.faqHead{
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: -17rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ##########################################   MEDIA QUERIES #################################### */
+
+
+
+ /* X-Small devices (portrait phones, less than 576px) */
+ /* No media query for `xs` since this is the default in Bootstrap */
+
+ @media only screen and (min-width: 300px) and (max-width:576px) { 
+
+
+    .navbar{
+        background:#ffffff ;
+    }
+    
+    
+    .Section_8{
+        height: 110vh;
+        width: 100%;
+    }
+
+    
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media only screen and (min-width: 576px) and (max-width:768px) { 
+
+    
+  
+    .navbar{
+    background:#ffffff ;
+    }
+
+    
+    
+
+
+ }
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:992px) { 
+  
+   
+
+.navbar{
+    background:#ffffff ;
+}
+
+
+
+}
+
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width:1200px) { 
+
+
+    html{
+        font-size: 100%;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        color: white;
+        padding:0rem 1rem;
+        font-size: 1.2rem;
+        font-weight: 600;     
+    }
+       
+    .TotalElement{
+    position: relative;
+    top: 1.3rem;
+    }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) and (max-width:1400px) { 
+    
+    
+    html{
+        font-size: 100%;
+    }
+
+
+.ExtraClasslogo{
+    background: #ffffff;
+    padding: 0.4rem 0.7rem;
+    font-family: inherit;
+    font-weight: 600;
+    position: relative;
+    top: 1.2rem;
+    left: 2rem;
+    width: 14rem;
+    font-size: 1.6rem;
+}
+
+
+
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        color: white;
+        padding: 0rem 1rem;
+        font-size: 1.2rem;
+        font-weight: 600;
+    
+    }
+    
+    .Heading1{
+        position: relative;
+        left: 3.1rem;
+    }
+    
+    .Heading2{
+        position: relative;
+        left: 1.5rem;
+    }
+
+    .Heading3{
+        position: relative;
+        left: 0.5rem;
+    }
+
+    .TotalElement{
+    position: relative;
+    top: 1.3rem;
+    }
+
+    .loginbtn{
+    margin-top: -0.2rem;   
+    }
+
+
+    
+.imgSizer{
+    height: 50rem;
+    margin-top: 4.8rem;
+}
+
+.img_sizer2{
+    width: 14rem;
+    height: 10rem;
+}
+
+
+.img_sizer3{
+    width: 14rem;
+    height: 4.2rem;
+    position: relative;
+    top: -1rem;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) and (max-width:3000px) { 
+
+    .Heading1{
+        position: relative;
+        left: 6.1rem;
+    }
+    .Heading2{
+        position: relative;
+        left: 3.5rem;
+    }
+    .Heading3{
+        position: relative;
+        left: 3.1rem;
+    }
+    
+.ExtraClasslogo{
+    background: #ffffff;
+    padding: 0.4rem 0.7rem;
+    font-family: inherit;
+    font-weight: 600;
+    position: relative;
+    top: 1.2rem;
+    left: 9rem;
+    width: 14rem;
+    font-size: 1.6rem;
+}
+
+.loginbtn{
+    margin-top: -0.2rem;   
+}
+
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;    
+    padding:0rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.TotalElement{
+    position: relative;
+    top: 1.3rem;
+    right: 13rem;
+}
+
+.loginbtn{
+    margin-top: -0.4rem;
+    margin-left: 0.7rem;
+}
+
+
+.imgSizer{
+    height: 47rem;
+    margin-top: 1.9rem;
+}
+
+.img_sizer2{
+    width: 14rem;
+    height: 10rem;
+}
+
+
+.img_sizer3{
+    width: 14rem;
+    height: 4.2rem;
+    position: relative;
+    top: -1rem;
+}
+
+    .setupBox{
+        position: relative;
+        top: 3.5rem;
+    }
+
+    .section_3{
+        height: 70vh;
+    }
+
+    .class_2{
+        height: 31.8rem;
+        width: 23rem;
+        border-radius: 1rem;
+    }
+
+    .para{
+        color: #868686;
+        font-size: 0.9rem;
+    }
+
+
+
+
+    .Section_4{
+        width: 100%;
+        height: 85vh;
+    }
+
+    .imgSizePage3{
+        height: 30rem;
+        width: 30rem;
+    }
+
+
+
+    .Section_5{
+        width: 100%;
+        height: 85vh;
+    }
+
+    .Section_6{
+        width: 100%;
+        height: 70vh;
+    }
+
+
+    .Section_8{
+        height: 80vh;
+        width: 100%;
+    }
+
+    .Section_8_img1{
+        position: relative;
+        left: 28rem;
+        top: -2.3rem;
+    }
+    .LaptopImg{
+        margin-top: -12rem;
+    }
+
+    .Section_9{
+        height: 30vh;
+        width: 100%;
+        
+    }
+
+    .SecondTextFooter{
+        position: relative;
+        left: 20rem;
+    }
+ }
+
