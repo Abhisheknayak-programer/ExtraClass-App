@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -25,20 +28,29 @@
 }
 
 .loginbtn{
-    width: 6rem;
+    width: 5rem;
+    font-family: 'Open Sans', sans-serif ;
+    border-radius: 1.5rem;
+    background-color: #ffffff;
+    border: none;
+    height: 2.3rem;
+    font-size: 1.3rem;
+    outline: none !important;
+}
+
+
+
+.loginbtn2{
+    width: 18rem;
+    font-family: 'Open Sans', sans-serif ;
     padding: 0.2rem;
     border-radius: 1.5rem;
     background-color: #ffffff;
     border: none;
     font-size: 1.3rem;
+    outline: none !important;
+    margin-left: 1rem;
 }
-
-.loginbtn a{
-    text-decoration: none;
-    font-family: inherit;
-    color: black;
-}
-
 
 
 
@@ -47,6 +59,7 @@
 .cont1st{
     height: 40rem; 
     width: 50%;
+
 }
 
 
@@ -55,6 +68,8 @@
     color: white;
     font-size: 4.7rem;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif ;
+
 }
 
 
@@ -62,12 +77,15 @@
     color: white;
     font-size: 4.7rem;
     font-weight: 700;
+    font-family: 'Open Sans', sans-serif ;
+
 }
 
 
 .Heading3{
     color: white;
     font-size: 2.5rem;
+    font-family: 'Open Sans', sans-serif ;
 
 }
 
@@ -101,11 +119,14 @@
 }
 
 .MappingHeading{
+    font-family: 'Open Sans', sans-serif ;
     color: white;
 }
 
 .MappingHeading2{
     color: white;
+    font-family: 'Open Sans', sans-serif ;
+
 }
 
 .MappingBtn{
@@ -157,9 +178,12 @@
     flex-direction: column;
     height: 5rem;
     width: 100%;
+    font-family: 'Open Sans', sans-serif ;
+
 }
 
 .Section_7Part2{
+    font-family: 'Open Sans', sans-serif ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -194,6 +218,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family: 'Open Sans', sans-serif ;
 }
 
 
@@ -223,40 +248,10 @@
 
 .Section_10_link{
     text-decoration: none;
-    color: black;
-}
-
-.Section_10_link:hover{
     color: blue;
+    font-size: 1.5rem;
 }
 
-
-
-
-
-
-.carousel_edit{
-    height: 30rem;
-    width: 50%;
-    margin: auto;
-}
-
-.carouselImgEdit{
-    height: 10rem;
-    width: 10rem;
-}
-.carousel_text{
-    color: black;
-}
-
-
-
-
-
-.Section_11{
-    height: 35vh;
-    width: 100%;
-}
 
 
 
@@ -265,9 +260,10 @@
 
 
 .Footer_Main_box{
-    background:#0669fd ;
-    height: 25vh;
+    background:#191a1b ;
+    height: 50vh;
     width: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -275,7 +271,7 @@
 
 .FooterLinkColor{
     color: white;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
 }
 
@@ -284,16 +280,60 @@
 }
 
 
-.FooterLinkColor:hover{
-    color: black;
+
+
+.end_footer{
+    background: #000000;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.FooterLinkColor{
+    cursor: pointer;
+}
+
+
+.icons_footer{
+    margin-top: -1rem;
+    color: white;
+}
+
+.icons_footer i{
+    padding: 0 0.5rem;
 }
 
 
 
+.logoFooter {
+    height: 4rem;
+    width: 5rem;
+    color: white;
+}
 
+.logoFooter h6{
+    background: #0B1EE6;
+    font-size: 0.9rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.7rem 0.7rem 0 0;
+}
 
-
-
+.logoFooter p{
+    font-size: 0.7rem;
+    font-weight: 300;
+    background: white;
+    color: #0B1EE6;
+    position: relative;
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -1rem;
+    border-radius: 0 0 0.7rem 0.7rem;
+}
 
 
 
@@ -419,6 +459,152 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Section200{
+    width: 60%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Open Sans', sans-serif;
+    border-radius:1rem;
+    color: white;
+    background: #007aff;
+
+}
+
+.Section200_div2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.joinNowBtn{
+    background: white;
+    color: blue;
+    padding:0.3rem 1rem ;
+    position: relative;
+    left: -3rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 0.4rem;
+    border: none;
+}
+
+
+
+.FaqModalText{
+    color: white;
+    background: #007aff;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************************** Login   Modals   *************************** */
+.Modal-google{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #007aff;
+    color: white;
+    padding: 0.5rem 0 0 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Or_sider{
+    position: relative;
+    top: -1.8rem;
+    left: 14rem;
+    background: white;
+    width: 2rem;
+    text-align: center;
+}
+
+
+.Login_para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Login_para a{
+    color: black;
+    
+}
+
+/* **********************************login   Modals        *************************** */
+
+
+
+
+.Faq_input{
+    display: flex;
+   
+}
+
+.Faq_submit{
+    outline: none;
+    background: #007aff;
+    color: white;
+    padding-left:1rem;
+    padding-right: 1rem;
+}
+
+
+.closebtn_faq{
+    outline: none !important;
+}
+
+
+
+
+.Select_class-option1,.Select_class-option2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+
+.Btn_select_editz{
+    border: none;
+    outline: none;
+    height: 2rem;
+    width: 4rem;
+    background: #65a7e48f;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    font-family: 'Open Sans';
+}
 
 
 
@@ -711,7 +897,7 @@
 
 .imgSizer{
     height: 47rem;
-    margin-top: 1.9rem;
+    margin-top: -2.9rem;
 }
 
 .img_sizer2{
@@ -797,5 +983,109 @@
         position: relative;
         left: 20rem;
     }
- }
 
+    .Section200{
+        position: relative;
+        top: 8rem;
+        left: 22rem;
+    }
+
+    
+    .girl_img{
+    height: 25rem;
+    margin-top: -25rem;
+    position: relative;
+    left: 60rem;
+    top: 9.4rem;
+    }
+
+    .Section_10{
+        position: relative;
+        top: 10rem;
+    }
+    
+
+
+
+
+
+    .SigninBtn{
+        position: relative;
+        left: 63rem;
+        top: -1.6rem;
+    }
+
+    .login_btn{
+        position: relative;
+        left: 63rem;
+        top: -1.5rem;
+    }
+
+.Section_10_link{
+    position: relative;
+    left: 31rem;
+    top: 2rem;
+}
+
+
+.faq_Girl_img{
+    position: relative;
+    top: 1.7rem;
+    height: 23.3rem;
+}
+
+.Faq_submit{
+    position: relative;
+    left: 3.5rem;
+}
+
+.login_footer{
+    position: relative;
+    left: 29rem;
+    top: -1.5rem;
+}
+
+.joinNowBtn{
+    position: relative;
+    left: 17rem;
+    top: -1.7rem;
+}
+
+.FaqModalText{
+    position: relative;
+    top: -2.5rem;
+    left: -0.3rem;
+}
+
+
+
+.FaqModal_box{
+    width: 120%;
+    height: 32.7rem;
+}
+
+.closebtn_faq span{
+    position: relative;
+    left: 18rem;
+}
+
+.faq_Girl_img{
+    position: relative;
+    top: 2.1rem;
+}
+
+.Faq_image_text1,.Faq_image_text2{
+    position: relative;
+    top: 2rem;
+}
+.faq_input_2_style{
+    position: relative;
+    left: -0.6rem;
+}
+.Faq_submit{
+    position: relative;
+    left: 7rem;
+    border: none;
+}
+
+ }
