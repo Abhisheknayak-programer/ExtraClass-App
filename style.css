@@ -676,7 +676,7 @@
  /* X-Small devices (portrait phones, less than 576px) */
  /* No media query for `xs` since this is the default in Bootstrap */
 
- @media only screen and (min-width: 300px) and (max-width:576px) { 
+ @media only screen and (min-width: 200px) and (max-width:576px) { 
 
 
     .navbar{
@@ -689,8 +689,265 @@
         width: 100%;
     }
 
+
+
     
+    .section_1{
+        height: 135vh;
+    }
+
+    .setupBox{
+        position: relative;
+        top: 3rem;
+        width: 100%;
+    }
+
+
+.img_sizer2{
+    height: 5rem;
 }
+
+.img_sizer3{
+    height: 2rem;
+    position: relative;
+    top: -0.5rem;
+}
+
+
+.Heading1{
+    font-size: 1rem;      
+}
+.Heading2{
+    font-size: 1rem;
+}
+
+.Heading3{
+    font-size: 1rem;
+}
+.Section_2_header{
+    font-size: 0.5rem;
+    text-align: center;
+}
+    
+
+.SigninBtn{
+    position: relative;
+    left: -0.5rem;
+    width: 13rem;
+    top: 2rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    display: block;
+    margin: auto;
+}
+
+.login_btn{
+    position: relative;
+    top: 1rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    display: block;
+    margin: auto;
+}
+
+.ExtraClasslogo{
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    margin: auto;
+}
+
+
+.rounded{
+    width: 100%;
+}
+
+
+.Section_4{
+    height: 37rem;
+}
+
+.Section_5{
+    height: 47rem;
+}
+
+
+.Section_6{
+    height: 97rem;
+}
+
+
+
+.Section_7{
+    font-size: 0.5rem;
+    text-align: center;
+    height: 10rem;
+}
+
+.Section_7Part2{
+    font-size: 0.5rem;
+    text-align: center; 
+}
+
+
+.Section_8_img1{
+    height: 7rem;
+   width: auto;
+   margin: auto;
+}
+
+.Section_8_img2{
+   height: 3rem;
+   width: auto;
+    position: relative;
+    left: 2rem;
+    top: -2rem;
+}
+
+
+
+
+.Section_10_link{
+
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+    font-size:1rem ;
+}
+
+
+.Section200{
+    height: 100vh;
+    position: relative;
+    top: 35rem;
+    left: 2rem;
+    width: 74%;
+}
+
+
+.girl_img{
+    height: 23rem;
+    position: relative;
+    left: 2rem;
+    top: 9.2rem;
+    visibility: hidden;
+}
+
+.login_footer{
+    position: relative;
+    top: 6rem;
+    width: 8rem;
+}
+
+.joinNowBtn{
+    position: relative;
+    top: 7rem;
+    width: 8rem;
+    left: 4rem;
+}
+
+.Section_10{
+    position: relative;
+    top: 15rem;
+    height: 20vh;
+}
+
+.Size_adjust_karna_hai{
+    position: relative;
+    top: -2rem;
+}
+
+.Size_adjust_karna_hai{
+    font-size: 0.4rem;
+}
+
+.lastFooterUpperHeads{
+    position: relative;
+    left: -1rem;
+}
+
+.imgSizer{
+    height: 15rem;
+    position: relative;
+    left: 5rem;
+    top: -50rem;
+    margin: auto;
+}
+.setKarnaHai{
+    position: relative;
+    top: -4rem;
+}
+
+    
+.Footer_Main_box{
+    height: 155vh;
+}
+    
+.faqHead{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.ThirdTextFooter{
+    position: relative;
+    left: -10rem;
+}
+.Size_adjust_karna_hai{
+    width: 200%;
+    text-align: center;
+}
+
+.end_footer{
+    height: 5rem;
+}
+    
+.FirstTextFooter{
+    visibility: hidden;
+}
+.SecondTextFooter{
+    text-align: center;
+    position: relative;
+    left: -4rem;
+}
+
+
+
+.ThirdTextFooter{
+    display: flex;
+    position: relative;
+    top: 7rem;
+    left: -7rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -704,11 +961,201 @@
     background:#ffffff ;
     }
 
-    
-    
+    .section_1{
+        height: 150vh;
+    }
+
+    .setupBox{
+        position: relative;
+        top: 22rem;
+        left: 10rem;
+    }
 
 
+.img_sizer2{
+    height: 7rem;
+}
+
+.img_sizer3{
+    height: 3rem;
+    position: relative;
+    top: -0.7rem;
+}
+
+.Heading1{
+    font-size: 3rem;    
+    width: 200%;
+    text-align: center;
+}
+.Heading2{
+    font-size: 2.3rem;
+    width: 200%;
+    text-align: center;
+}
+
+.Heading3{
+    font-size: 1.6rem;
+    width: 200%;
+    text-align: center;
+}
+    
+
+.SigninBtn{
+    position: relative;
+    left: 16rem;
+    width: 14rem;
+    top: -3.5rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+}
+
+.login_btn{
+    position: relative;
+    left: 16rem;
+    top: -3.5rem;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+}
+
+.ExtraClasslogo{
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+}
+
+
+.rounded{
+    width: 100%;
+}
+
+
+.Section_4{
+    height: 50rem;
+}
+
+.Section_5{
+    height: 55rem;
+}
+
+
+.Section_6{
+    height: 64rem;
+}
+
+.Section_8_img1{
+    position: relative;
+    left: 8.5rem;
+}
+
+.Section_8_img2{
+    position: relative;
+    left: 9rem;
+}
+
+
+
+
+.Section_10_link{
+
+    position: relative;
+    left: 1rem;
+    top: 1rem;
+}
+
+
+.Section200{
+    height: 50vh;
+    position: relative;
+    top: 30rem;
+    left: 7rem;
+}
+
+
+.girl_img{
+    height: 23rem;
+    position: relative;
+    left: 22rem;
+    top: 9.2rem;
+    visibility: hidden;
+}
+
+.login_footer{
+    position: relative;
+    left: 12rem;
+    top: 1rem;
+    width: 14rem;
+}
+
+.joinNowBtn{
+    position: relative;
+    left: -2rem;
+    top: 4rem;
+    width: 14rem;
+}
+
+.Section_10{
+    position: relative;
+    top: 15rem;
+    height: 20vh;
+}
+
+.Size_adjust_karna_hai{
+    position: relative;
+    top: -2rem;
+}
+
+
+.imgSizer{
+    height: 40rem;
+    position: relative;
+    top: -5.8rem;
+    left: -10rem;
+}
+.setKarnaHai{
+    position: relative;
+    top: -4rem;
+}
+
+    
+.Footer_Main_box{
+    height: 85vh;
+}
+    
+.faqHead{
+    font-size: 2rem;
+}
+
+.ThirdTextFooter{
+    position: relative;
+    left: -4rem;
+}
+.Size_adjust_karna_hai{
+    width: 200%;
+    text-align: center;
+}
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -720,18 +1167,6 @@
 .navbar{
     background:#ffffff ;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
