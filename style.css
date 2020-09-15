@@ -481,7 +481,7 @@
     font-family:'Open Sans', sans-serif;
     border-radius:1rem;
     color: white;
-    background: #007aff;
+    background:  radial-gradient(at right bottom, #1c73ff 12%, #00cbff 100%);
 
 }
 
@@ -610,6 +610,22 @@
 
 
 
+.login_btn{
+    padding-bottom: 2.3rem ;
+}
+
+
+.SigninBtn{
+    padding: 0.3rem 0;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -707,7 +723,169 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.img_sizer2{
+    height: 7rem;
 }
+
+.img_sizer3{
+    height: 3rem;
+    position: relative;
+    top: -0.7rem;
+}
+
+.Heading1{
+    font-size: 2.3rem;    
+}
+.Heading2{
+    font-size: 2.3rem;
+}
+
+.Heading3{
+    font-size: 1.6rem;
+}
+    
+
+.SigninBtn{
+    position: relative;
+    left: 26rem;
+    width: 14rem;
+    top: 1rem;
+}
+
+.login_btn{
+    position: relative;
+    left: 26rem;
+    top: 1rem;
+
+}
+
+.rounded{
+    width: 100%;
+}
+
+
+.Section_4{
+    height: 65rem;
+}
+
+.Section_5{
+    height: 80rem;
+}
+
+
+.Section_6{
+    height: 64rem;
+}
+
+.Section_8_img1{
+    position: relative;
+    left: 12rem;
+}
+
+.Section_8_img2{
+    position: relative;
+    left: 17rem;
+}
+
+
+
+
+.Section_10_link{
+
+    position: relative;
+    left: 10rem;
+    top: 1rem;
+
+}
+
+
+.Section200{
+    height: 40vh;
+    position: relative;
+    top: 30rem;
+    left: 10rem;
+}
+
+
+.girl_img{
+    height: 23rem;
+    position: relative;
+    left: 28rem;
+    top: 9.2rem;
+}
+
+.login_footer{
+    position: relative;
+    left: 18rem;
+    top: 3rem;
+}
+
+.joinNowBtn{
+    position: relative;
+    left: 5.3rem;
+    top: 3rem;
+    width: 7rem;
+}
+
+.Section_10{
+    position: relative;
+    top: 15rem;
+    height: 20vh;
+}
+
+.Size_adjust_karna_hai{
+    position: relative;
+    top: -2rem;
+}
+
+
+.imgSizer{
+    height: 40rem;
+    position: relative;
+    top: 1.8rem;
+}
+.setKarnaHai{
+    position: relative;
+    top: -4rem;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -733,7 +911,151 @@
     top: 1.3rem;
     }
 
+
+
+
+
+.img_sizer2{
+    height: 11rem;
+}
+
+.img_sizer3{
+    height: 5rem;
+    position: relative;
+    top: -1rem;
+}
+
+.Heading1{
+    font-size: 3rem;    
+}
+.Heading2{
+    font-size: 3rem;
+}
+
+.Heading3{
+    font-size: 2rem;
+}
+    
+
+.SigninBtn{
+    position: relative;
+    left: 40rem;
+    width: 14rem;
+}
+
+.login_btn{
+    position: relative;
+    left: 40rem;
+}
+
+.rounded{
+    width: 70%;
+}
+
+
+.Section_4{
+    height: 40rem;
+}
+
+.Section_5{
+    height: 30rem;
+}
+
+.Section_6{
+    height: 30rem;
+}
+
+.Section_8_img1{
+    position: relative;
+    left: 12rem;
+    top: -2.4rem;
+}
+
+.Section_10_link{
+
+    position: relative;
+    left: 20rem;
+    top: 1rem;
+
+}
+
+
+.Section200{
+    height: 40vh;
+    position: relative;
+    top: 30rem;
+    left: 15rem;
+}
+
+
+.girl_img{
+    height: 24rem;
+    position: relative;
+    left: 40rem;
+    top: 8.3rem;
+}
+
+.login_footer{
+    position: relative;
+    left: 25rem;
+    top: 1rem;
+}
+
+.joinNowBtn{
+    position: relative;
+    left: 12rem;
+    top: 0.9rem;
+    width: 7rem;
+}
+
+.Section_10{
+    position: relative;
+    top: 15rem;
+    height: 20vh;
+}
+
+.imgSizer{
+    height: 46rem;
+    position: relative;
+    top: 1.3rem;
+}
+
+.ExtraClasslogo{
+    position: relative;
+    left: 3rem;
+    top: 2rem;
+}
+
+.Size_adjust_karna_hai{
+    position: relative;
+    top: -1rem;
+}
+
+
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -808,13 +1130,14 @@
 
     .loginbtn{
     margin-top: -0.2rem;   
+
     }
 
 
     
 .imgSizer{
     height: 50rem;
-    margin-top: 4.8rem;
+    margin-top: -0.3rem;
 }
 
 .img_sizer2{
@@ -831,7 +1154,103 @@
 }
 
 
+
+.SigninBtn{
+    position: relative;
+    left: 53rem;
+    width: 14rem;
 }
+
+.login_btn{
+    position: relative;
+    left: 53rem;
+}
+
+.rounded{
+    width: 70%;
+}
+
+.Section_4{
+    height: 40rem;
+}
+
+.Section_5{
+    height: 30rem;
+}
+
+.Section_6{
+    height: 30rem;
+}
+
+.Section_8_img1{
+    position: relative;
+    left: 20rem;
+    top: -2.4rem;
+}
+
+.Section_10_link{
+
+    position: relative;
+    left: 30rem;
+    top: 1rem;
+
+}
+
+
+.Section200{
+    height: 40vh;
+    position: relative;
+    top: 30rem;
+    left: 17rem;
+}
+
+.girl_img{
+    height: 24rem;
+    position: relative;
+    left: 46rem;
+    top: 8.3rem;
+}
+
+.login_footer{
+    position: relative;
+    left: 28rem;
+    top: 1rem;
+}
+
+.joinNowBtn{
+    position: relative;
+    left: 14rem;
+    top: 0.9rem;
+    width: 8rem;
+}
+
+.Section_10{
+    position: relative;
+    top: 15rem;
+    height: 20vh;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1013,6 +1432,7 @@
         position: relative;
         left: 63rem;
         top: -1.6rem;
+        width: 16rem;
     }
 
     .login_btn{
