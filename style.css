@@ -685,10 +685,9 @@
     
     
     .Section_8{
-        height: 110vh;
+        height: 70vh;
         width: 100%;
     }
-
 
 
     
@@ -817,7 +816,7 @@
     height: 80vh;
     position: relative;
     top: 35rem;
-    left: 2rem;
+    left: 2.3rem;
     width: 74%;
 }
 
@@ -840,7 +839,7 @@
     position: relative;
     top: 7rem;
     width: 8rem;
-    left: 4rem;
+    left: 5em;
 }
 
 .Section_10{
@@ -906,7 +905,7 @@
 .SecondTextFooter{
     text-align: center;
     position: relative;
-    left: -4rem;
+    left: -1rem;
 }
 
 .icons_footer{
