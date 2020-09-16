@@ -693,7 +693,7 @@
 
     
     .section_1{
-        height: 135vh;
+        height: 103vh;
     }
 
     .setupBox{
@@ -760,16 +760,16 @@
 
 
 .Section_4{
-    height: 37rem;
+    height: 40rem;
 }
 
 .Section_5{
-    height: 47rem;
+    height: 50rem;
 }
 
 
 .Section_6{
-    height: 97rem;
+    height: 88rem;
 }
 
 
@@ -789,14 +789,15 @@
 .Section_8_img1{
     height: 7rem;
    width: auto;
-   margin: auto;
+   position: relative;
+   left: 1.5rem;
 }
 
 .Section_8_img2{
    height: 3rem;
    width: auto;
     position: relative;
-    left: 2rem;
+    left: 3.3rem;
     top: -2rem;
 }
 
@@ -813,7 +814,7 @@
 
 
 .Section200{
-    height: 100vh;
+    height: 80vh;
     position: relative;
     top: 35rem;
     left: 2rem;
@@ -876,13 +877,15 @@
 
     
 .Footer_Main_box{
-    height: 155vh;
+    height: 100vh;
 }
     
 .faqHead{
     font-size: 1rem;
     text-align: center;
 }
+
+
 
 .ThirdTextFooter{
     position: relative;
@@ -906,7 +909,10 @@
     left: -4rem;
 }
 
-
+.icons_footer{
+    display: flex;
+    margin-top:1rem ;
+}
 
 .ThirdTextFooter{
     display: flex;
